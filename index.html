@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Junior iPhones - Seu próximo iPhone começa aqui. iPhones seminovos, usados e recondicionados com garantia e procedência em Pelotas - RS.">
-    <meta name="keywords" content="iPhone seminovo Pelotas, iPhone usado, comprar iPhone, Junior iPhones, iPhone recondicionado">
+    <meta name="description" content="Junior Celulares - Seu próximo celular começa aqui. Celulares seminovos, usados e recondicionados com garantia e procedência em Pelotas - RS.">
+    <meta name="keywords" content="celular seminovo Pelotas, celular usado, comprar celular, Junior Celulares, Samsung, Motorola, Xiaomi, iPhone, Google Pixel">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Junior iPhones | iPhones Seminovos com Garantia">
-    <meta property="og:description" content="iPhones com garantia, procedência e atendimento personalizado em Pelotas e região.">
+    <meta property="og:title" content="Junior Celulares | Celulares Seminovos com Garantia">
+    <meta property="og:description" content="Celulares com garantia, procedência e atendimento personalizado em Pelotas e região.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="pt_BR">
     
-    <title>Junior iPhones | iPhones Seminovos com Garantia em Pelotas - RS</title>
+    <title>Junior Celulares | Celulares Seminovos com Garantia em Pelotas - RS</title>
     
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1416,11 +1416,19 @@
             position: absolute;
             top: 16px;
             right: 16px;
-            background: none;
-            border: none;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.12);
             color: var(--text-primary);
             cursor: pointer;
-            padding: 8px;
+            padding: 8px 12px;
+            border-radius: 999px;
+            font-weight: 600;
+            z-index: 2;
+        }
+
+        .modal-close:hover {
+            background: rgba(255, 255, 255, 0.12);
+            transform: translateY(-1px);
         }
 
         /* WhatsApp Float Button */
@@ -1701,7 +1709,7 @@
             
             <nav class="nav-desktop">
                 <a href="#inicio" class="nav-link">Início</a>
-                <a href="#iphones" class="nav-link">iPhones</a>
+                <a href="#celulares" class="nav-link">Celulares</a>
                 <a href="#quem-somos" class="nav-link">Quem Somos</a>
                 <a href="#garantia" class="nav-link">Garantia</a>
                 <a href="#avaliacoes" class="nav-link">Avaliações</a>
@@ -1714,7 +1722,7 @@
                     <i data-lucide="shopping-bag" style="width: 20px; height: 20px;"></i>
                     <span class="cart-badge">0</span>
                 </button>
-                <a href="https://wa.me/5500000000000?text=Olá!%20Vim%20pelo%20site%20da%20Junior%20iPhones%20e%20gostaria%20de%20mais%20informações." class="btn-buy-header" target="_blank">
+                <a href="https://wa.me/5500000000000?text=Olá!%20Vim%20pelo%20site%20da%20Junior%20Celulares%20e%20gostaria%20de%20mais%20informações." class="btn-buy-header" target="_blank">
                     Comprar Agora
                 </a>
                 <button class="menu-mobile-btn" id="menuBtn" aria-label="Menu" onclick="openMobileMenu()">
@@ -1732,12 +1740,12 @@
         </button>
         <nav>
             <a href="#inicio" class="mobile-nav-link" onclick="closeMobileMenu()">Início</a>
-            <a href="#iphones" class="mobile-nav-link" onclick="closeMobileMenu()">iPhones</a>
+            <a href="#celulares" class="mobile-nav-link" onclick="closeMobileMenu()">Celulares</a>
             <a href="#quem-somos" class="mobile-nav-link" onclick="closeMobileMenu()">Quem Somos</a>
             <a href="#garantia" class="mobile-nav-link" onclick="closeMobileMenu()">Garantia</a>
             <a href="#avaliacoes" class="mobile-nav-link" onclick="closeMobileMenu()">Avaliações</a>
             <a href="#contato" class="mobile-nav-link" onclick="closeMobileMenu()">Contato</a>
-            <a href="https://wa.me/5500000000000?text=Olá!%20Vim%20pelo%20site%20da%20Junior%20iPhones%20e%20gostaria%20de%20mais%20informações." class="mobile-nav-link" style="color: var(--accent);" target="_blank" onclick="closeMobileMenu()">
+            <a href="https://wa.me/5500000000000?text=Olá!%20Vim%20pelo%20site%20da%20Junior%20Celulares%20e%20gostaria%20de%20mais%20informações." class="mobile-nav-link" style="color: var(--accent);" target="_blank" onclick="closeMobileMenu()">
                 Comprar Agora
             </a>
         </nav>
@@ -1750,12 +1758,12 @@
                 <div class="hero-text">
                     <h1>
                         Seu próximo
-                        <span>iPhone começa aqui.</span>
+                        <span>celular começa aqui.</span>
                     </h1>
-                    <p>Venda de iPhones com garantia, procedência e atendimento personalizado em Pelotas e região.</p>
+                    <p>Venda de celulares de várias marcas, com garantia, procedência e atendimento personalizado em Pelotas e região.</p>
                     <div class="hero-buttons">
-                        <a href="#iphones" class="btn-primary">Ver iPhones</a>
-                        <a href="https://wa.me/5500000000000?text=Olá!%20Tenho%20interesse%20em%20comprar%20um%20iPhone." class="btn-secondary" target="_blank">
+                        <a href="#celulares" class="btn-primary">Ver celulares</a>
+                        <a href="https://wa.me/5500000000000?text=Olá!%20Tenho%20interesse%20em%20comprar%20um%20celular." class="btn-secondary" target="_blank">
                             <i data-lucide="message-circle" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 8px;"></i>
                             Falar no WhatsApp
                         </a>
@@ -1831,14 +1839,14 @@
     </section>
 
     <!-- Products Section -->
-    <section class="section" id="iphones">
+    <section class="section" id="celulares">
         <div class="container">
-            <h2 class="section-title">Nossos iPhones</h2>
-            <p class="section-subtitle">Encontre o iPhone perfeito para você. Todos com garantia e procedência.</p>
+            <h2 class="section-title">Nossos celulares</h2>
+            <p class="section-subtitle">Encontre o aparelho ideal para você, com opções de várias marcas e modelos. Todos com garantia e procedência.</p>
             
             <!-- Filters -->
             <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 32px; align-items: center;">
-                <input type="text" class="search-input" placeholder="Buscar iPhone..." id="searchInput">
+                <input type="text" class="search-input" placeholder="Buscar celular..." id="searchInput">
                 <select class="sort-select" id="sortSelect">
                     <option value="default">Ordenar por</option>
                     <option value="price-asc">Mais baratos</option>
@@ -1849,12 +1857,11 @@
             
             <div class="filters" id="filterContainer">
                 <button class="filter-btn active" data-filter="all">Todos</button>
-                <button class="filter-btn" data-filter="11">iPhone 11</button>
-                <button class="filter-btn" data-filter="12">iPhone 12</button>
-                <button class="filter-btn" data-filter="13">iPhone 13</button>
-                <button class="filter-btn" data-filter="14">iPhone 14</button>
-                <button class="filter-btn" data-filter="15">iPhone 15</button>
-                <button class="filter-btn" data-filter="16">iPhone 16</button>
+                <button class="filter-btn" data-filter="apple">Apple</button>
+                <button class="filter-btn" data-filter="samsung">Samsung</button>
+                <button class="filter-btn" data-filter="motorola">Motorola</button>
+                <button class="filter-btn" data-filter="xiaomi">Xiaomi</button>
+                <button class="filter-btn" data-filter="google">Google</button>
             </div>
             
             <!-- Products Grid -->
@@ -1871,7 +1878,7 @@
     <section class="section" id="garantia">
         <div class="container">
             <div class="trust-section">
-                <h2 class="section-title" style="text-align: center;">Por que comprar na Junior iPhones?</h2>
+                <h2 class="section-title" style="text-align: center;">Por que comprar na Junior Celulares?</h2>
                 <p class="section-subtitle" style="text-align: center;">Segurança, qualidade e confiança em cada detalhe</p>
                 
                 <div class="trust-grid">
@@ -1881,7 +1888,7 @@
                         </div>
                         <div>
                             <h3>Aparelhos testados</h3>
-                            <p>Todos os iPhones passam por rigorosos testes de qualidade antes da venda.</p>
+                            <p>Todos os celulares passam por rigorosos testes de qualidade antes da venda.</p>
                         </div>
                     </div>
                     <div class="trust-item">
@@ -1951,13 +1958,13 @@
     <!-- Process Steps -->
     <section class="section">
         <div class="container">
-            <h2 class="section-title" style="text-align: center;">Como comprar</h2>
+            <h2 class="section-title" style="text-align: center;">Como comprar seu celular</h2>
             <p class="section-subtitle" style="text-align: center;">Simples, rápido e seguro</p>
             
             <div class="process-steps">
                 <div class="process-step">
                     <div class="step-number">1</div>
-                    <h3>Escolha seu iPhone</h3>
+                    <h3>Escolha seu celular</h3>
                     <p>Navegue pelos modelos e encontre o ideal para você</p>
                     <div class="process-arrow">→</div>
                 </div>
@@ -1991,12 +1998,12 @@
             <div class="faq-list">
                 <div class="faq-item">
                     <button class="faq-question">
-                        Os iPhones têm garantia?
+                        Os celulares têm garantia?
                         <span class="faq-icon">+</span>
                     </button>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Sim! Todos os nossos iPhones possuem garantia de 90 dias para defeitos de fabricação. Oferecemos também garantia estendida opcional.
+                            Sim! Todos os nossos celulares possuem garantia de 90 dias para defeitos de fabricação. Também oferecemos garantia estendida e revisão técnica quando necessário.
                         </div>
                     </div>
                 </div>
@@ -2007,7 +2014,7 @@
                     </button>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Sim! Parcelamos em até 12x sem juros no cartão de crédito. Também aceitamos PIX com 5% de desconto e boleto bancário.
+                            Sim! Parcelamos em até 12x sem juros no cartão de crédito. Também aceitamos PIX, boleto e troca por aparelho usado em alguns casos.
                         </div>
                     </div>
                 </div>
@@ -2018,7 +2025,7 @@
                     </button>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Atualmente entregamos em Pelotas e região. Em breve atenderemos todo o Brasil com envio pelos Correios e transportadoras.
+                            Atualmente entregamos em Pelotas e região. Também podemos organizar envio para outras localidades conforme disponibilidade.
                         </div>
                     </div>
                 </div>
@@ -2029,18 +2036,18 @@
                     </button>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Todos os nossos iPhones possuem bateria original Apple. Informamos a saúde da bateria de cada aparelho no anúncio.
+                            Avaliamos cada aparelho antes da venda e informamos a saúde da bateria no anúncio. Em muitos casos, os aparelhos já chegam com bateria em ótimo estado.
                         </div>
                     </div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question">
-                        Aceitam iPhone usado como parte do pagamento?
+                        Aceitam celular usado como parte do pagamento?
                         <span class="faq-icon">+</span>
                     </button>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Sim! Aceitamos seu iPhone usado como parte do pagamento. Entre em contato pelo WhatsApp para avaliação.
+                            Sim! Aceitamos seu celular usado como parte do pagamento. Entre em contato pelo WhatsApp para avaliarmos o aparelho.
                         </div>
                     </div>
                 </div>
@@ -2051,7 +2058,7 @@
                     </button>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Seminovo: usado por curto período, sem sinais de uso. Recondicionado: passou por revisão técnica completa com possível troca de peças por originais.
+                            Seminovo: aparelho com uso curto e bom estado geral. Recondicionado: passou por revisão técnica e testes completos antes da venda.
                         </div>
                     </div>
                 </div>
@@ -2062,9 +2069,6 @@
     <!-- Product Modal -->
     <div class="modal" id="productModal">
         <div class="modal-content" id="modalContent">
-            <button class="modal-close" id="closeModal">
-                <i data-lucide="x" style="width: 24px; height: 24px;"></i>
-            </button>
             <div id="modalBody">
                 <!-- Product details will be rendered here -->
             </div>
@@ -2074,9 +2078,6 @@
     <!-- Admin Modal -->
     <div class="modal" id="adminModal">
         <div class="modal-content" id="adminModalContent">
-            <button class="modal-close" id="closeAdminModal">
-                <i data-lucide="x" style="width: 24px; height: 24px;"></i>
-            </button>
             <div class="admin-section" id="adminModalBody">
                 <div id="loginPanel">
                     <h2 style="margin-bottom: 16px;">Área de administração</h2>
@@ -2093,7 +2094,7 @@
                     <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin-bottom: 18px;">
                         <div>
                             <h2 style="margin: 0 0 8px;">Painel Admin</h2>
-                            <p style="color: var(--text-secondary); margin: 0;">Gerencie os produtos da loja Junior iPhones.</p>
+                            <p style="color: var(--text-secondary); margin: 0;">Gerencie os produtos da loja Junior Celulares.</p>
                         </div>
                         <div style="display: flex; gap: 10px; flex-wrap: wrap;">
                             <button class="btn-primary" id="showAddProductBtn">Adicionar produto</button>
@@ -2141,9 +2142,6 @@
                 <!-- Cart Modal -->
                 <div class="modal" id="cartModal">
                     <div class="modal-content">
-                        <button class="modal-close" id="closeCartModal">
-                            <i data-lucide="x" style="width: 24px; height: 24px;"></i>
-                        </button>
                         <div id="cartBody">
                             <h3 style="margin-top:0;">Seu carrinho</h3>
                             <div id="cartItems" style="margin-top:12px;"></div>
@@ -2168,7 +2166,7 @@
                         <img src="img/logo/logo fundo transoarente.png" alt="" width="160px">
                     </div>
                     <p class="footer-description">
-                        iPhones seminovos, usados e recondicionados com garantia e procedência. Atendimento personalizado em Pelotas - RS.
+                        Celulares seminovos, usados e recondicionados de várias marcas com garantia e procedência. Atendimento personalizado em Pelotas - RS.
                     </p>
                     <div class="footer-social">
                         <a href="https://wa.me/5500000000000" class="social-link" target="_blank" aria-label="WhatsApp">
@@ -2186,7 +2184,7 @@
                     <h3 class="footer-title">Links Rápidos</h3>
                     <ul class="footer-links">
                         <li><a href="#inicio">Início</a></li>
-                        <li><a href="#iphones">iPhones</a></li>
+                        <li><a href="#celulares">Celulares</a></li>
                         <li><a href="#garantia">Garantia</a></li>
                         <li><a href="#avaliacoes">Avaliações</a></li>
                     </ul>
@@ -2205,20 +2203,20 @@
                     <ul class="footer-links">
                         <li>📍 Pelotas - RS</li>
                         <li>📱 (53) 00000-0000</li>
-                        <li>✉️ contato@junioriphones.com.br</li>
+                        <li>✉️ contato@juniorcelulares.com.br</li>
                         <li>🕐 Seg-Sex: 9h às 18h</li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Junior iPhones. Todos os direitos reservados.</p>
+                <p>&copy; 2024 Junior Celulares. Todos os direitos reservados.</p>
                 <a href="#" id="adminBtnFooter" class="footer-admin">Admin</a>
             </div>
         </div>
     </footer>
 
     <!-- WhatsApp Float Button -->
-    <a href="https://wa.me/5500000000000?text=Olá!%20Vim%20pelo%20site%20da%20Junior%20iPhones%20e%20gostaria%20de%20mais%20informações." class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+    <a href="https://wa.me/5500000000000?text=Olá!%20Vim%20pelo%20site%20da%20Junior%20Celulares%20e%20gostaria%20de%20mais%20informações." class="whatsapp-float" target="_blank" aria-label="WhatsApp">
         <i data-lucide="message-circle" style="width: 28px; height: 28px;"></i>
     </a>
 
@@ -2251,115 +2249,93 @@
         const defaultProducts = [
             {
                 id: 1,
-                name: 'iPhone 15 Pro Max',
-                model: '15',
-                color: 'Titânio Natural',
+                name: 'Samsung Galaxy S24',
+                brand: 'Samsung',
+                model: 'samsung',
+                color: 'Prism Black',
                 storage: '256GB',
                 condition: 'new',
                 conditionLabel: 'Novo',
-                price: 9499,
-                installmentPrice: '12x de R$ 791,58',
-                image: 'img/iphone 15 pro max/iphone 15 pro max.avif',
+                price: 3899,
+                installmentPrice: '12x de R$ 324,92',
+                image: 'img/logo/logo fundo transoarente.png',
                 batteryHealth: 100,
-                description: 'iPhone 15 Pro Max novo, lacrado na caixa. Chip A17 Pro, câmera de 48MP, tela Super Retina XDR de 6.7".'
+                description: 'Samsung Galaxy S24 com tela dinâmica, câmera avançada e ótimo desempenho para o dia a dia.'
             },
             {
                 id: 2,
-                name: 'iPhone 15',
-                model: '15',
-                color: 'Preto',
+                name: 'Motorola Edge 40',
+                brand: 'Motorola',
+                model: 'motorola',
+                color: 'Azul',
                 storage: '128GB',
-                condition: 'new',
-                conditionLabel: 'Novo',
-                price: 6999,
-                installmentPrice: '12x de R$ 583,25',
-                image: 'img/iphone 15/iphone 15.avif',
-                batteryHealth: 100,
-                description: 'iPhone 15 novo com excelente estoque. Chip A16, sistema de câmera avançado e bateria com garantia.'
+                condition: 'used',
+                conditionLabel: 'Usado',
+                price: 1899,
+                installmentPrice: '12x de R$ 158,25',
+                image: 'img/logo/logo fundo transoarente.png',
+                batteryHealth: 88,
+                description: 'Motorola Edge 40 em excelente estado, com câmera dupla e design premium.'
             },
             {
                 id: 3,
-                name: 'iPhone 15 Pro Max',
-                model: '15',
-                color: 'Titânio Natural',
-                storage: '256GB',
+                name: 'Xiaomi Redmi Note 13',
+                brand: 'Xiaomi',
+                model: 'xiaomi',
+                color: 'Grafite',
+                storage: '128GB',
                 condition: 'new',
                 conditionLabel: 'Novo',
-                price: 9499,
-                installmentPrice: '12x de R$ 791,58',
-                image: 'img/iphone 15 pro max/iphone 15 pro max 1.avif',
+                price: 1699,
+                installmentPrice: '12x de R$ 141,58',
+                image: 'img/logo/logo fundo transoarente.png',
                 batteryHealth: 100,
-                description: 'iPhone 15 Pro Max novo, lacrado na caixa. Chip A17 Pro, câmera de 48MP, tela Super Retina XDR de 6.7".'
+                description: 'Xiaomi Redmi Note 13 com excelente custo-benefício, bateria de longa duração e câmera versátil.'
             },
             {
                 id: 4,
-                name: 'iPhone 15',
-                model: '15',
-                color: 'Preto',
+                name: 'iPhone 13',
+                brand: 'Apple',
+                model: 'apple',
+                color: 'Meia-Noite',
                 storage: '128GB',
-                condition: 'new',
-                conditionLabel: 'Novo',
-                price: 6999,
-                installmentPrice: '12x de R$ 583,25',
-                image: 'img/iphone 15/iphone 15 1.avif',
-                batteryHealth: 100,
-                description: 'iPhone 15 novo com excelente estoque. Chip A16, sistema de câmera avançado e bateria com garantia.'
+                condition: 'used',
+                conditionLabel: 'Usado',
+                price: 2799,
+                installmentPrice: '12x de R$ 233,25',
+                image: 'img/logo/logo fundo transoarente.png',
+                batteryHealth: 91,
+                description: 'iPhone 13 com ótimo desempenho, bateria saudável e acabamento impecável.'
             },
             {
                 id: 5,
-                name: 'iPhone 15 Pro Max',
-                model: '15',
-                color: 'Titânio Natural',
-                storage: '256GB',
+                name: 'Google Pixel 8',
+                brand: 'Google',
+                model: 'google',
+                color: 'Obsidian',
+                storage: '128GB',
                 condition: 'new',
                 conditionLabel: 'Novo',
-                price: 9499,
-                installmentPrice: '12x de R$ 791,58',
-                image: 'img/iphone 15 pro max/iphone 15 pro max 2.avif',
+                price: 2999,
+                installmentPrice: '12x de R$ 249,92',
+                image: 'img/logo/logo fundo transoarente.png',
                 batteryHealth: 100,
-                description: 'iPhone 15 Pro Max novo, lacrado na caixa. Chip A17 Pro, câmera de 48MP, tela Super Retina XDR de 6.7".'
+                description: 'Google Pixel 8 com câmera inteligente, processamento rápido e Android puro.'
             },
             {
                 id: 6,
-                name: 'iPhone 15',
-                model: '15',
-                color: 'Preto',
+                name: 'Samsung Galaxy A54',
+                brand: 'Samsung',
+                model: 'samsung',
+                color: 'Violeta',
                 storage: '128GB',
-                condition: 'new',
-                conditionLabel: 'Novo',
-                price: 6999,
-                installmentPrice: '12x de R$ 583,25',
-                image: 'img/iphone 15/iphone 15 2.avif',
-                batteryHealth: 100,
-                description: 'iPhone 15 novo com excelente estoque. Chip A16, sistema de câmera avançado e bateria com garantia.'
-            },
-            {
-                id: 7,
-                name: 'iPhone 15 Pro Max',
-                model: '15',
-                color: 'Titânio Natural',
-                storage: '256GB',
-                condition: 'new',
-                conditionLabel: 'Novo',
-                price: 9499,
-                installmentPrice: '12x de R$ 791,58',
-                image: 'img/iphone 15 pro max/iphone 15 pro max.avif',
-                batteryHealth: 100,
-                description: 'iPhone 15 Pro Max novo, lacrado na caixa. Chip A17 Pro, câmera de 48MP, tela Super Retina XDR de 6.7".'
-            },
-            {
-                id: 8,
-                name: 'iPhone 15',
-                model: '15',
-                color: 'Preto',
-                storage: '128GB',
-                condition: 'new',
-                conditionLabel: 'Novo',
-                price: 6999,
-                installmentPrice: '12x de R$ 583,25',
-                image: 'img/iphone 15/iphone 15.avif',
-                batteryHealth: 100,
-                description: 'iPhone 15 novo com excelente estoque. Chip A16, sistema de câmera avançado e bateria com garantia.'
+                condition: 'used',
+                conditionLabel: 'Usado',
+                price: 1999,
+                installmentPrice: '12x de R$ 166,58',
+                image: 'img/logo/logo fundo transoarente.png',
+                batteryHealth: 90,
+                description: 'Samsung Galaxy A54 com tela grande, câmera de boa qualidade e ótimo desempenho geral.'
             }
         ];
 
@@ -2609,7 +2585,7 @@
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">${product.name}</h3>
-                        <p class="product-specs">${product.color} • ${product.storage}</p>
+                        <p class="product-specs">${product.brand || 'Marca'} • ${product.color} • ${product.storage}</p>
                         <span class="product-condition condition-${product.condition}">${product.conditionLabel}</span>
                         <div class="product-price">
                             <span class="price-pix">R$ ${product.price.toLocaleString('pt-BR')}</span>
@@ -2702,7 +2678,7 @@
         // Buy Product
         function buyProduct(productId) {
             const product = products.find(p => p.docId === productId || p.id == productId);
-            const message = `Olá! Tenho interesse no ${product.name} ${product.storage} ${product.color} anunciado no site da Junior iPhones. Gostaria de mais informações.`;
+            const message = `Olá! Tenho interesse no ${product.name} ${product.storage} ${product.color} anunciado no site da Junior Celulares. Gostaria de mais informações.`;
             window.open(`https://wa.me/5500000000000?text=${encodeURIComponent(message)}`, '_blank');
         }
 
@@ -2916,7 +2892,7 @@
                     ${galleryImages.map((_, index) => `<button type="button" class="${index === 0 ? 'active' : ''}" data-index="${index}"></button>`).join('')}
                 </div>
                 <h2 style="font-size: 24px; font-weight: 700; margin-bottom: 8px; margin-top: 16px;">${product.name}</h2>
-                <p style="color: var(--text-secondary); margin-bottom: 16px;">${product.color} • ${product.storage} • ${product.conditionLabel}</p>
+                <p style="color: var(--text-secondary); margin-bottom: 16px;">${product.brand || 'Marca'} • ${product.color} • ${product.storage} • ${product.conditionLabel}</p>
                 
                 <div style="display: flex; gap: 16px; align-items: baseline; margin-bottom: 16px;">
                     <span style="font-size: 32px; font-weight: 800; color: var(--accent);">R$ ${product.price.toLocaleString('pt-BR')}</span>
@@ -2972,16 +2948,20 @@
             }
         }
 
+        function closeProductModal() {
+            const modal = document.getElementById('productModal');
+            if (modal) {
+                modal.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        }
+
         // Close Modal
-        document.getElementById('closeModal').addEventListener('click', function() {
-            document.getElementById('productModal').classList.remove('active');
-            document.body.style.overflow = '';
-        });
+        document.getElementById('closeModal').addEventListener('click', closeProductModal);
 
         document.getElementById('productModal').addEventListener('click', function(e) {
             if (e.target === this) {
-                this.classList.remove('active');
-                document.body.style.overflow = '';
+                closeProductModal();
             }
         });
 
@@ -2992,14 +2972,14 @@
                 name: 'João Martins',
                 date: '15 de junho',
                 rating: 5,
-                text: 'Comprei meu iPhone aqui e o atendimento foi excelente. Entrega rápida e garantia de 90 dias.'
+                text: 'Comprei meu celular aqui e o atendimento foi excelente. Entrega rápida e garantia de 90 dias.'
             },
             {
                 initials: 'LP',
                 name: 'Laura Pereira',
                 date: '02 de julho',
                 rating: 5,
-                text: 'Ótimo aparelho e preço justo. Recomendo demais para quem quer um iPhone seminovo em ótimo estado.'
+                text: 'Ótimo aparelho e preço justo. Recomendo demais para quem quer um celular seminovo em ótimo estado.'
             },
             {
                 initials: 'RB',
@@ -3119,7 +3099,7 @@
             return monthlyPayment;
         }
 
-        console.log('Junior iPhones - Site carregado com sucesso! 🚀');
+        console.log('Junior Celulares - Site carregado com sucesso! 🚀');
         console.log('Produtos disponíveis:', products.length);
         console.log('Tecnologias: HTML5, CSS3, JavaScript (Vanilla)');
 
